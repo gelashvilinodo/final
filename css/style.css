@@ -1,0 +1,99 @@
+:root {
+    --mainBGcolor: #012426;
+    --footercolor: #2C4246;
+    --inter: "Inter", sans-serif;
+    --mainFsize: 24px;
+    --shadow_bordercolor: rgba(5, 188, 202, 0.8);
+    --button_tittlecolor: #C46A2B;
+    --secondaryTextColor: #A1C3C9;
+    --cardTextColor: #D9D9D9;
+    --thirdTextColor: #05BCCA;
+}
+
+.main_container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header  */
+
+header {
+    display: flex;
+    padding: 16px 94px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--mainBGcolor);
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.burger {
+    display: none;
+}
+
+ul {
+    display: flex;
+    column-gap: 72px;
+}
+
+li a {
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--secondaryTextColor);
+}
+
+.search_user {
+    display: flex;
+    column-gap: 42px;
+    align-items: center;
+}
+
+.search {
+    padding: 10.5px;
+    border: none;
+    background-color: transparent;
+}
+
+.language_currency {
+    display: flex;
+    column-gap: 32px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    border: none;
+    background-color: transparent;
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 400;
+    line-height: 37px;
+    color: var(--secondaryTextColor);
+}
+
+.user_cart {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+
+.user_button {
+    padding: 13px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--thirdTextColor);
+}
+
+.cart {
+    padding: 8px;
+    border: 2px solid var(--thirdTextColor);
+    border-radius: 8px;
+    background-color: transparent;
+}
