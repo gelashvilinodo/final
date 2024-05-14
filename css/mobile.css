@@ -31,4 +31,30 @@
         display: none;
     }
 
+    /* section 3 */
+
+    .guitar_picks {
+        height: 404px;
+        padding-inline: 8px;
+    }
+
+    .forgrid {
+        grid-template-rows: repeat(2, 160px);
+    }
+
+    .pickstext {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* section 4 */
+
+    .cards {
+        padding: 32px 8px;
+    }
+
+    .scroll_container{
+        margin-top: 40px;
+    }
+
 }

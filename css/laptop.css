@@ -42,4 +42,10 @@
     .mobile_menu {
         display: block;
     }
+
+    /* section 4 */
+
+    .cards {
+        padding-inline: 32px;
+    }
 }

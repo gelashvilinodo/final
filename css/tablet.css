@@ -15,20 +15,26 @@
         padding-inline: 32px;
     }
 
+    /* section 3 */
 
+    .guitar_picks {
+        height: 596px;
+        padding-inline: 32px;
+    }
+
+    /* section 4 */
+
+    .cards {
+        padding-block: 48px;
+    }
 }
+
+
+
 
 /* 708px */
 
-@media (max-width: 708px) {
-
-    /* cover  */
-
-    /* .coverp, .coverSpan{
-        font-size: 24px;
-        line-height: 32px;
-    } */
-}
+@media (max-width: 708px) {}
 
 
 /* 565px */
