@@ -284,6 +284,7 @@ li a {
 .cards {
     padding: 96px 94px;
     background-color: #1A1A1A;
+    overflow-x: scroll;
 }
 
 .cards_title {
@@ -311,14 +312,12 @@ li a {
     column-gap: 20px;
     margin-top: 64px;
     width: 1252px;
-    overflow-x: scroll;
 }
 
 .individual_cards {
     padding: 8px 8px 16px;
     display: inline-block;
     background-color: var(--footercolor);
-    overflow-x: scroll;
 }
 
 .cardtext {
@@ -361,3 +360,5 @@ li a {
     line-height: 27px;
     color: var(--thirdTextColor);
 }
+
+/* section 5 */

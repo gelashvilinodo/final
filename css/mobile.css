@@ -53,8 +53,16 @@
         padding: 32px 8px;
     }
 
-    .scroll_container{
+    .scroll_container {
         margin-top: 40px;
+    }
+
+    .cards_title {
+        font-size: 24px;
+    }
+
+    .cards_title::after {
+        width: 156px;
     }
 
 }
