@@ -284,7 +284,6 @@ li a {
 .cards {
     padding: 96px 94px;
     background-color: #1A1A1A;
-    overflow-x: scroll;
 }
 
 .cards_title {
@@ -311,7 +310,8 @@ li a {
     display: flex;
     column-gap: 20px;
     margin-top: 64px;
-    width: 1252px;
+    /* width: 1252px; */
+    overflow-x: scroll;
 }
 
 .individual_cards {
