@@ -1,0 +1,45 @@
+/* 1231px */
+
+@media (max-width: 1231px) {
+    /* header */
+
+    header {
+        padding-inline: 40px;
+    }
+
+    .header_ul {
+        column-gap: 50px;
+    }
+
+    .search_user {
+        column-gap: 25px;
+    }
+}
+
+/* 1025px  */
+
+@media (max-width: 1025px) {
+    /* header */
+
+    header {
+        padding-inline: 94px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .lang_currency {
+        display: none;
+    }
+
+    /* for burger */
+
+    .mobile_menu {
+        display: block;
+    }
+}

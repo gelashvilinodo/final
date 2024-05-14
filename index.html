@@ -16,11 +16,14 @@
     <div class="main_container">
       <!-- header  -->
       <header>
-        <button class="burger">
-          <img src="images/burger.svg" alt="burger icon to show other pages" />
-        </button>
-        <nav>
-          <ul>
+        <img
+          src="images/iconamoon_menu-burger-horizontal-bold.svg"
+          alt=""
+          class="burger"
+        />
+        <img src="images/iconoir_xmark-circle.svg" alt="" class="xMark" />
+        <nav class="header_nav">
+          <ul class="header_ul">
             <li>
               <a href="index.html">Home</a>
             </li>
@@ -35,36 +38,83 @@
         <a href="index.html" class="logo_link">
           <img
             src="images/wpf_guitar.svg"
-            alt="minimalistic orange guitar, logo of the web-site"
+            alt="logo of web-site. minimalist orange guitar"
+            class="logo"
           />
         </a>
-        <div class="search_user">
-          <button class="search">
-            <img src="images/search_icon.svg" alt="search icon" />
-          </button>
-          <div class="language_currency">
-            <button class="for_language settings">
+        <div class="user_side">
+          <img src="images/lucide_search.svg" alt="" class="search" />
+          <div class="lang_currency">
+            <button class="language">
               En
-              <img src="images/iconamoon_arrow-down-2.png" alt="" />
+              <img src="images/iconamoon_arrow-down-2.svg" alt="" />
             </button>
-            <button class="for_currency settings">
+            <button class="currency">
               USD
-              <img src="images/iconamoon_arrow-down-2.png" alt="" />
+              <img src="images/iconamoon_arrow-down-2.svg" alt="" />
             </button>
           </div>
           <div class="user_cart">
-            <button class="user_button">
-              <img src="images/Vector.svg" alt="icon for user's profile" />
+            <button class="user">
+              <img src="images/Frame 3.svg" alt="" class="user_pic" />
             </button>
             <button class="cart">
-              <img
-                src="images/mdi_cart-outline.svg"
-                alt="icon for selected items"
-              />
+              <img src="images/Frame 4.svg" alt="" class="cart_pic" />
+            </button>
+          </div>
+        </div>
+        <div class="mobile_menu">
+          <nav>
+            <ul class="burger_ul">
+              <li>
+                <a href="index.html" class="burger_text">Home</a>
+              </li>
+              <li>
+                <a href="catalog.html" class="burger_text">Catalog</a>
+              </li>
+              <li>
+                <a href="contact.html" class="burger_text">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger_lang_currency">
+            <button class="burger_buttons">
+              En
+              <img src="images/iconamoon_arrow-down-2forburger.svg" alt="" />
+            </button>
+            <button class="burger_buttons">
+              USD
+              <img src="images/iconamoon_arrow-down-2forburger.svg" alt="" />
             </button>
           </div>
         </div>
       </header>
+      <!-- section 1 -->
+      <section class="guitar_types">
+        <a href="" class="guitars">Classical</a>
+        <a href="" class="guitars">Acoustic</a>
+        <a href="" class="guitars">Electric</a>
+        <a href="" class="guitars">Base</a>
+      </section>
+      <!-- cover -->
+      <section class="cover">
+        <div class="cover_text">
+          <p class="coverp">NEW <span class="coverSpan">COLLECTION</span></p>
+          <button class="cover_smbutton">
+            <img src="images/Vector-cover-small-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="cover_buttonss">
+          <button class="coverBTN">
+            <img src="images/iconamoon_arrow-left-2-bold.svg" alt="" />
+          </button>
+
+          <button class="coverBTN margin">
+            <img src="images/iconamoon_arrow-right-2-bold.svg" alt="" />
+          </button>
+        </div>
+      </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
