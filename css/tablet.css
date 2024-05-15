@@ -30,7 +30,7 @@
 
     /* section 5 */
 
-    .cards2{
+    .cards2 {
         padding-block: 48px;
     }
 }
@@ -66,5 +66,20 @@
         line-height: 32px;
     }
 
+    /* section 6 form  */
 
+    .form_section {
+        height: 168px;
+    }
+
+    .form_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .home_form_div {
+        width: 320px;
+
+    }
 }

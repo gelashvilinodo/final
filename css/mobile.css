@@ -72,13 +72,17 @@
         padding-left: 8px;
     }
 
-    .cards2_title{
-        font-size: 24px;
-        line-height: 32px;
+    .scroll_container2 {
+        margin-top: 40px;
     }
 
-    .scroll_container2{
-        margin-top: 40px;
+    .individualcards2 {
+        height: 320px;
+        flex: 0 0 298px;
+    }
+
+    .cards2_hover {
+        top: 220px;
     }
 
 }
