@@ -300,6 +300,7 @@ li a {
     content: "";
     width: 187.27px;
     height: 2px;
+    border-radius: 2px;
     background-color: var(--thirdTextColor);
     display: block;
     margin-top: 8px;
@@ -310,7 +311,6 @@ li a {
     display: flex;
     column-gap: 20px;
     margin-top: 64px;
-    /* width: 1252px; */
     overflow-x: scroll;
 }
 
@@ -362,3 +362,130 @@ li a {
 }
 
 /* section 5 */
+
+.cards2 {
+    height: 756px;
+    padding: 96px 94px;
+    background-color: var(--mainBGcolor);
+}
+
+.cards2_title {
+    font-family: var(--inter);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: var(--button_tittlecolor);
+    text-align: center;
+}
+
+.cards2_title::after {
+    content: "";
+    width: 99px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--button_tittlecolor);
+    display: block;
+    margin-top: 8px;
+    margin-inline: auto;
+}
+
+.scroll_container2 {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 64px;
+    overflow-x: scroll;
+}
+
+.individualcards2 {
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: 0 0 404px;
+    align-items: end;
+}
+
+.card2_pic1 {
+    background-image: url("../images/Rectangle\ 3\ cards.png");
+}
+
+.card2_pic2 {
+    background-image: url("../images/Rectangle\ 3\ card.png");
+}
+
+.card2_pic3 {
+    background-image: url("../images/Rectangle\ 3\ c.png");
+}
+
+.cards2_text {
+    padding: 23px 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    background-color: rgba(5, 188, 202, 0.6);
+}
+
+.date {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: var(--cardTextColor);
+}
+
+.cards2_figs {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: var(--cardTextColor);
+}
+
+/* for card's hover  */
+
+.cards2_hover {
+    padding: 24px 48px 48px 24px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 188, 202, 0.6);
+    display: none;
+}
+
+.cards2_text_hover {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.hover_text {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--cardTextColor);
+    margin-top: 24px;
+}
+
+.hover_button {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 209px;
+    justify-content: end;
+}
+
+.hover_p {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: var(--cardTextColor);
+}
+
+.hoverbtn {
+    background-color: var(--button_tittlecolor);
+    border: none;
+    border-radius: 4px;
+    padding-inline: 6px;
+}

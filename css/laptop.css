@@ -48,4 +48,11 @@
     .cards {
         padding-inline: 32px;
     }
+
+    /* section 5 */
+
+    .cards2{
+        padding-left: 32px;
+        padding-right: 0;
+    }
 }
