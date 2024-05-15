@@ -1,3 +1,17 @@
+/* 879px */
+
+@media (max-width: 879px) {
+
+    /* footer  */
+
+    .footer_main_div {
+        width: 100%;
+        padding-inline: 32px;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+}
+
 /* 745px */
 
 @media (max-width: 745px) {
@@ -38,14 +52,39 @@
 
 
 
-/* 708px */
 
-@media (max-width: 708px) {}
 
 
 /* 565px */
 
 @media (max-width: 565px) {
+
+    /* header  */
+
+    header {
+        padding-inline: 8px;
+    }
+
+    .burger,
+    .xMark,
+    .user_pic,
+    .cart_pic {
+        width: 32px;
+        height: 32px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user_side,
+    .user_cart {
+        column-gap: 16px;
+    }
+
+
+
     /* section 1 */
 
     .guitar_types {
@@ -82,4 +121,17 @@
         width: 320px;
 
     }
+
+    /* footer  */
+
+    .footer_main_div {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .footer_divs {
+        align-items: center;
+    }
+
 }

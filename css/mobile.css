@@ -85,4 +85,10 @@
         top: 220px;
     }
 
+    /* footer  */
+
+    footer {
+        padding-block: 32px;
+    }
+
 }

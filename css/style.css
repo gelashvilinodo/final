@@ -10,8 +10,6 @@
     --thirdTextColor: #05BCCA;
 }
 
-/* home page  */
-
 .main_container {
     width: min(100%, 1440px);
     margin: auto;
@@ -548,4 +546,73 @@ li a {
     line-height: 19px;
     color: #FFFFFF;
     background-color: var(--thirdTextColor);
+}
+
+/* footer  */
+
+footer {
+    /* padding: 48px 306px 64px; */
+    padding-top: 48px;
+    padding-bottom: 64px;
+    background-color: var(--footercolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_main_div {
+    display: flex;
+    column-gap: 223px;
+}
+
+.footer_divs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer_title {
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--cardTextColor);
+    margin-bottom: 24px;
+}
+
+.footer_title::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    display: block;
+    margin-top: 4px;
+    background-color: var(--cardTextColor);
+}
+
+.footer_divs a {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--cardTextColor);
+}
+
+.socials {
+    display: flex;
+    column-gap: 16px;
+}
+
+.rights_div {
+    display: flex;
+    column-gap: 4px;
+    margin-top: 96px;
+}
+
+.rights_div p {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cardTextColor);
 }
