@@ -45,8 +45,8 @@
 
     /* section 4 */
 
-    .cards {
-        padding-inline: 32px 0;
+    .scroll_container {
+        padding-left: 32px;
     }
 
     /* section 5 */

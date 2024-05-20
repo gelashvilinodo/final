@@ -10,6 +10,12 @@
         justify-content: space-between;
         column-gap: 0;
     }
+
+    /* section 4 */
+
+    .scroll_container {
+        padding-bottom: 48px;
+    }
 }
 
 /* 745px */

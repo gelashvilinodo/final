@@ -52,6 +52,18 @@ li a {
     color: var(--secondaryTextColor);
 }
 
+li a:hover {
+    text-shadow: 0 0 4px;
+}
+
+.logo_link {
+    transition: all .1s linear;
+}
+
+.logo_link:hover {
+    scale: 1.1;
+}
+
 .user_side {
     display: flex;
     column-gap: 42px;
@@ -86,6 +98,15 @@ li a {
 .cart {
     border: none;
     background-color: transparent;
+    transition: all .1s linear;
+}
+
+.user:hover {
+    scale: 1.1;
+}
+
+.cart:hover {
+    scale: 1.1;
 }
 
 /* for burger  */
@@ -156,6 +177,11 @@ li a {
     color: #FFFFFF;
 }
 
+.guitars:hover {
+    background-color: var(--secondaryTextColor);
+    color: var(--footercolor);
+}
+
 /*section 2 cover */
 
 .cover {
@@ -217,6 +243,11 @@ li a {
     padding: 20px;
     background-color: transparent;
     background-color: var(--button_tittlecolor);
+    transition: all .1s linear;
+}
+
+.coverBTN:hover {
+    scale: 1.1;
 }
 
 /* section 3 */
@@ -247,6 +278,13 @@ li a {
     background-position: center;
     padding-top: 16px;
     padding-left: 16px;
+    transition: all .13s linear;
+}
+
+.picks:hover {
+    scale: 1.05;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 3px grey;
 }
 
 .pick1 {
@@ -280,7 +318,7 @@ li a {
 /* section 4 */
 
 .cards {
-    padding: 96px 94px;
+    padding-top: 96px;
     background-color: #1A1A1A;
 }
 
@@ -306,17 +344,22 @@ li a {
 }
 
 .scroll_container {
+    padding: 14px 94px 96px;
     display: flex;
     column-gap: 20px;
-    margin-top: 64px;
+    margin-top: 50px;
     overflow-x: scroll;
     scrollbar-width: none;
 }
 
 .individual_cards {
     padding: 8px 8px 16px;
-    display: inline-block;
     background-color: var(--footercolor);
+    transition: all .1s linear;
+}
+
+.individual_cards:hover {
+    box-shadow: 0 0 8px 4px rgba(5, 188, 202, 0.8);
 }
 
 .cardtext {
@@ -339,17 +382,17 @@ li a {
     column-gap: 8px;
 }
 
-.pricediv {
-    display: flex;
-    column-gap: 4px;
-}
-
 .reviewtext {
     font-family: var(--inter);
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
     color: var(--secondaryTextColor);
+}
+
+.pricediv {
+    display: flex;
+    column-gap: 4px;
 }
 
 .price {
@@ -615,4 +658,215 @@ footer {
     font-weight: 400;
     line-height: 24px;
     color: var(--cardTextColor);
+}
+
+
+/* catalog css  */
+
+/* section 1 */
+
+.active {
+    background-color: var(--secondaryTextColor);
+    color: var(--footercolor);
+}
+
+/* section2 */
+
+.electric_guitars {
+    padding: 96px 94px;
+    background-color: var(--mainBGcolor);
+}
+
+.filters_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterBRN {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--cardTextColor);
+    transition: all .1s linear;
+}
+
+.filterBRN:hover {
+    scale: 1.05;
+}
+
+.sorting {
+    display: flex;
+    column-gap: 32px;
+}
+
+.filter_title {
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--cardTextColor);
+}
+
+.sorting_options {
+    padding: 4px 8px;
+    display: flex;
+    column-gap: 33px;
+    align-items: center;
+    background-color: var(--secondaryTextColor);
+    border-radius: 4px;
+}
+
+.sorting_options p {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--footercolor);
+}
+
+/* grid  */
+
+.catalog_grid_container {
+    margin-block: 64px;
+    display: grid;
+    grid-template-columns: repeat(4 25%);
+    grid-template-rows: repeat(4 400px);
+    gap: 40px 20px;
+    grid-template-areas: "photo1 photo2 photo3 photo4"
+        "photo5 photo6 photo7 photo8"
+        "photo9 photo10 photo11 photo12"
+        "photo13 photo14 photo15 photo16";
+}
+
+.new_figures {
+    background-color: var(--footercolor);
+    transition: all .1s linear;
+}
+
+.new_figures:hover {
+    box-shadow: 0 0 8px 4px rgba(5, 188, 202, 0.8);
+}
+
+.picture1 {
+    grid-area: photo1;
+}
+
+.picture2 {
+    grid-area: photo2;
+}
+
+.picture3 {
+    grid-area: photo3;
+}
+
+.picture4 {
+    grid-area: photo4;
+}
+
+.picture5 {
+    grid-area: photo5;
+}
+
+.picture6 {
+    grid-area: photo6;
+}
+
+.picture7 {
+    grid-area: photo7;
+}
+
+.picture8 {
+    grid-area: photo8;
+}
+
+.picture9 {
+    grid-area: photo9;
+}
+
+.picture10 {
+    grid-area: photo10;
+}
+
+.picture11 {
+    grid-area: photo11;
+}
+
+.picture12 {
+    grid-area: photo12;
+}
+
+.picture13 {
+    grid-area: photo13;
+}
+
+.picture14 {
+    grid-area: photo14;
+}
+
+.picture15 {
+    grid-area: photo15;
+}
+
+.picture16 {
+    grid-area: photo16;
+}
+
+.grid_pictures {
+    width: 100%;
+    object-fit: cover;
+}
+
+.whole_anotation {
+    padding: 16px 8px;
+}
+
+/* grid ends here  */
+
+.catalog_BTNS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 48px;
+}
+
+.pageBTS {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cardTextColor);
+    transition: all .15s linear;
+}
+
+.pageBTS:hover {
+    scale: 1.1;
+    box-shadow: 0 0 5px 2px black;
+}
+
+.previousBTN {
+    background-color: var(--button_tittlecolor);
+}
+
+.page_info {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nextBTN {
+    background-color: var(--thirdTextColor);
 }
