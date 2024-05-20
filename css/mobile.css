@@ -86,6 +86,20 @@
         top: 220px;
     }
 
+    /* catalog page  */
+
+    /* section 2 */
+
+    .electric_guitars {
+        padding-block: 32px;
+    }
+
+    /* grid  */
+
+    .catalog_grid_container {
+        margin-block: 40px;
+    }
+
     /* footer  */
 
     footer {

@@ -591,76 +591,6 @@ li a:hover {
     background-color: var(--thirdTextColor);
 }
 
-/* footer  */
-
-footer {
-    /* padding: 48px 306px 64px; */
-    padding-top: 48px;
-    padding-bottom: 64px;
-    background-color: var(--footercolor);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer_main_div {
-    display: flex;
-    column-gap: 223px;
-}
-
-.footer_divs {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-}
-
-.footer_title {
-    font-family: var(--inter);
-    font-size: var(--mainFsize);
-    font-weight: 400;
-    line-height: 32px;
-    color: var(--cardTextColor);
-    margin-bottom: 24px;
-}
-
-.footer_title::after {
-    content: "";
-    width: 80px;
-    height: 2px;
-    display: block;
-    margin-top: 4px;
-    background-color: var(--cardTextColor);
-}
-
-.footer_divs a {
-    font-family: var(--inter);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: var(--cardTextColor);
-}
-
-.socials {
-    display: flex;
-    column-gap: 16px;
-}
-
-.rights_div {
-    display: flex;
-    column-gap: 4px;
-    margin-top: 96px;
-}
-
-.rights_div p {
-    font-family: var(--inter);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: var(--cardTextColor);
-}
-
-
 /* catalog css  */
 
 /* section 1 */
@@ -673,11 +603,12 @@ footer {
 /* section2 */
 
 .electric_guitars {
-    padding: 96px 94px;
+    padding-block: 96px;
     background-color: var(--mainBGcolor);
 }
 
 .filters_div {
+    padding-inline: 94px;
     display: flex;
     justify-content: space-between;
 }
@@ -688,12 +619,15 @@ footer {
     align-items: center;
     background-color: transparent;
     border: none;
+    transition: all .1s linear;
+}
+
+.filterBTNtext {
     font-family: var(--inter);
     font-size: var(--mainFsize);
     font-weight: 700;
     line-height: 32px;
     color: var(--cardTextColor);
-    transition: all .1s linear;
 }
 
 .filterBRN:hover {
@@ -722,7 +656,7 @@ footer {
     border-radius: 4px;
 }
 
-.sorting_options p {
+.sorting_text {
     font-family: var(--inter);
     font-size: 16px;
     font-weight: 400;
@@ -733,6 +667,7 @@ footer {
 /* grid  */
 
 .catalog_grid_container {
+    padding-inline: 94px;
     margin-block: 64px;
     display: grid;
     grid-template-columns: repeat(4 25%);
@@ -869,4 +804,72 @@ footer {
 
 .nextBTN {
     background-color: var(--thirdTextColor);
+}
+
+/* footer  */
+
+footer {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    background-color: var(--footercolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_main_div {
+    display: flex;
+    column-gap: 223px;
+}
+
+.footer_divs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer_title {
+    font-family: var(--inter);
+    font-size: var(--mainFsize);
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--cardTextColor);
+    margin-bottom: 24px;
+}
+
+.footer_title::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    display: block;
+    margin-top: 4px;
+    background-color: var(--cardTextColor);
+}
+
+.footer_divs a {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--cardTextColor);
+}
+
+.socials {
+    display: flex;
+    column-gap: 16px;
+}
+
+.rights_div {
+    display: flex;
+    column-gap: 4px;
+    margin-top: 96px;
+}
+
+.rights_div p {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cardTextColor);
 }
