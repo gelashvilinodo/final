@@ -98,16 +98,16 @@
 
     .contact_section {
         padding: 48px 64px;
-        height: 605px;
+        justify-content: center;
+        align-items: center;
     }
 
     .form_main_container {
+        width: 100%;
     }
 
-    
+
 }
-
-
 
 
 
@@ -215,6 +215,59 @@
     .pageBTS_text {
         display: none;
     }
+
+
+    /* contact page  */
+
+    /* contact section  */
+
+
+    .contact_section {
+        height: 735px;
+        padding: 32px 40px;
+    }
+
+    .form_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pin_tel_cont {
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+    }
+
+    .contact_info {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .contact_mail,
+    .contact_number {
+        display: none;
+    }
+
+    .adress_pin img {
+        width: 24px;
+    }
+
+    .formtomap {
+        flex-wrap: wrap;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .map_container {
+        margin-top: 40px;
+        width: 100%;
+        align-items: center;
+        row-gap: 32px;
+    }
+
+
 
     /* footer  */
 
